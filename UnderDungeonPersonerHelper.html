@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>파스텔</title>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="파스텔">
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="파스텔">
+    <meta property="og:description" content="파스텔">
+    <meta property="og:image" content="pastelteam.netlify.app/images/PastelLogo.png">
+    <meta property="og:url" content="pastelteam.netlify.app">
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="UnderDungeonPersonerHelper.css">
+</head>
+<body>
+
+</body>
+	<div class="Text"></div>
+	<img id="Logo" src="images/BigLogo2.png" />
+	<div id="Title">지하던전</div>
+	<br />
+	
+	<div class="Sub_Title">게임 플레이</div>
+	<div class="Text">선택의 공간에서 같은 모양이 가로로 나열되면 해당 모양이나 특수한 이벤트가 추가됩니다. 한 줄당 한 번만 가능합니다. 층을 이동하면 초기화됩니다.</div>
+	<div class="Text">저주받은 자의 각인을 제외한 각인은 엘리트, 보스몬스터와의 승리 시에만 능력치를 보상으로 얻을 수 있습니다.</div>
+	<div class="Text">전투에서 승리 시 일정 확률로 마석, 아이템을 얻을 수 있습니다.</div>
+	<div class="Text">스킬, 장비마석, 요정의 레벨이 올라감에 따라 추가되는 다른 특수능력은 없습니다.</div>
+	<div class="Text">게임플레이 중 왼쪽 상단 아이템 버튼을 눌러 나오는 아이템 목록에서 회복과 버프 등의 아이템이 사용 가능합니다.</div>
+	<div class="Text">같은 마석을 얻으면 레벨업이 가능합니다.</div>
+	<div class="Text">같은 아이템은 중첩이 가능합니다.</div>
+	<div class="Text">희귀 습득 확률은 기본적으로 층을 오를 때 마다 조금씩 상승합니다.</div>
+	<div class="Text">능력치의 상승과 감소에는 두가지 종류가 있습니다. 예를들어 '근력 +10'이 있고 '근력증가 +10%'가 있습니다. 전자는 근력이 20이라면 30으로 상승됩니다. 후자는 근력 20에 퍼센트로 적용되어 20의 10%인 2가 올라 22가 됩니다.</div>
+	
+	<div class="Sub_Title">능력치</div>
+	<div class="Text Color_Point">선악력</div>
+	<div class="Text">선악력은 빛대미지, 어둠대미지, 선악력기반회복에 영향을 끼칩니다. 빛대미지, 선악력기반회복은 선악력이 높을수록 높은위력을 내며 어둠대미지는 선악력이 음수로 클수록 위력이 올라갑니다. 선악력이 음수인데 빛대미지의 공격을 하면 자기 자신에게 대미지를 줍니다.</div>
+	<div class="Text Color_Point">맷집</div>
+	<div class="Text">받는 대미지를 줄여줍니다. 최대 80% 까지 적용됩니다.</div>
+	<div class="Text Color_Point">받는 대미지 증가, 주는 대미지 감소</div>
+	<div class="Text">받는 대미지 증가, 주는 대미지 감소는 최대 90% 까지 적용됩니다.</div>
+	<div class="Text Color_Point">회피율</div>
+	<div class="Text">회피율은 명중률을 낮춥니다. 회피율은 최대 95%까지 적용됩니다.</div>
+	<div class="Text Color_Point">간파</div>
+	<div class="Text">선택의 공간, 전투 등에서 보이지 않던 것을 보이게 해줍니다.</div>
+	<div class="Text Color_Point">기절과 매혹</div>
+	<div class="Text">기절은 지속 턴 동안 행동을 할 수 없지만 매혹은 타격을 받을 때까지 행동을 할 수 없습니다.</div>
+	<div class="Text Color_Point">개구리 변신</div>
+	<div class="Text">받는 대미지가 두 배가 되고 주는 대미지가 절반이 됩니다.</div>
+	<div class="Text Color_Point">가시</div>
+	<div class="Text">공격 대상에게 고정대미지를 입힙니다. 자신한테 공격 할 경우 자신에게도 대미지가 적용됩니다.</div>
+	
+	<div class="Sub_Title">기술 특성</div>
+	<div class="Text Color_Point">신속</div>
+	<div class="Text">기술의 소모 행동력을 1 줄인다.</div>
+	<div class="Text Color_Point">그림자</div>
+	<div class="Text">기술 사용 횟수를 1회 추가 한다.</div>
+	<div class="Text Color_Point">자동</div>
+	<div class="Text">전투 시작 시 대기시간 증가 없이 기술을 자동으로 시전한다. 기습을 당하면 시전되지 않는다.</div>
+	<div class="Text Color_Point">흡혈</div>
+	<div class="Text">공격 시 가한 대미지의 10%만큼 생명력을 회복한다.</div>
+	<div class="Text Color_Point">약탈</div>
+	<div class="Text">기술이 적에게 적중하면 일정확률로 코어를 얻는다.</div>
+	<div class="Text Color_Point">백발백중</div>
+	<div class="Text">명중률이 두배 상승한다.</div>
+
+	<div class="Sub_Title">선택의 공간</div>
+	<img class="Icon" src="images/Icon1.png" />
+	<div class="Text Color_Point">괴물</div>
+	<div class="Text">일반 괴물과 조우한다. 전투 승리 시 코어만 얻을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon2.png" />
+	<div class="Text Color_Point">엘리트 괴물</div>
+	<div class="Text">엘리트 괴물과 조우한다. 전투 승리 시 코어와 함께 능력치를 얻는다.</div>
+	<br />
+	<img class="Icon" src="images/Icon3.png" />
+	<div class="Text Color_Point">기술마석</div>
+	<div class="Text">기술마석을 얻을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon4.png" />
+	<div class="Text Color_Point">장비마석</div>
+	<div class="Text">장비마석을 얻을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon5.png" />
+	<div class="Text Color_Point">악마와의 거래</div>
+	<div class="Text">패널티를 얻고 능력치를 얻는다.</div>
+	<br />
+	<img class="Icon" src="images/Icon6.png" />
+	<div class="Text Color_Point">마석재단</div>
+	<div class="Text">기술마석 또는 장비마석을 레벨업 시킬 수 있다. 스페셜 등급의 마석은 레벨을 올릴 수 없다.</div>
+	<br />
+	<img class="Icon" src="images/Icon7.png" />
+	<div class="Text Color_Point">휴식</div>
+	<div class="Text">생명력을 25% 회복한다. 아주 낮은 확률로 생명력 기반 독에 걸린다.</div>
+	<br />
+	<img class="Icon" src="images/Icon8.png" />
+	<div class="Text Color_Point">마석판매대</div>
+	<div class="Text">코어를 넣고 마석, 아이템을 뽑을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon9.png" />
+	<div class="Text Color_Point">아이템</div>
+	<div class="Text">아이템을 얻을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon10.png" />
+	<div class="Text Color_Point">함정</div>
+	<div class="Text">고정 피해를 받는다. 층을 올라갈수록 받는 대미지가 올라간다.</div>
+	<br />
+	<img class="Icon" src="images/Icon11.png" />
+	<div class="Text Color_Point">계단</div>
+	<div class="Text">층을 내려간다. 악마와 조우한다.</div>
+	<br />
+	<img class="Icon" src="images/Icon12.png" />
+	<div class="Text Color_Point">텅 빈 곳</div>
+	<div class="Text">아무 것도 없는 공간. 낮은 확률로 코어를 얻는다.</div>
+	<br />
+	<img class="Icon" src="images/Icon13.png" />
+	<div class="Text Color_Point">알 수 없는 상자</div>
+	<div class="Text">마석, 아이템을 얻거나 괴물과 조우하거나 능력치를 얻거나 잃거나 버프를 받거나 디버프를 받을 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon14.png" />
+	<div class="Text Color_Point">짙은어둠</div>
+	<div class="Text">어떤 선택이 나올지 모른다. 간파가 있을 경우 어떤 선택인지 알 수 있다.</div>
+	<br />
+	<img class="Icon" src="images/Icon15.png" />
+	<div class="Text Color_Point">이름 모를 노인</div>
+	<div class="Text">특수한 선택. 스페셜 등급의 마석 또는 아이템을 얻는다.</div>
+	<br />
+	<img class="Icon" src="images/Icon16.png" />
+	<div class="Text Color_Point">빛나는 구슬</div>
+	<div class="Text">특수한 선택. 기술마석에 능력을 부여한다.</div>
+	<br />
+	<img class="Icon" src="images/Icon17.png" />
+	<div class="Text Color_Point">작지만 밝은 빛</div>
+	<div class="Text">특수한 선택. 요정을 얻을 수 있다.</div>
+	
+</html>
