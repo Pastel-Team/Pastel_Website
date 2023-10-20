@@ -43,6 +43,23 @@ body {
     padding : 0;
 }
 
+.linkicon {
+	width : 35.45%;
+
+    display: inline-block;
+
+    margin : 0;
+    padding : 0;
+}
+
+.appstoreicon{
+	width : 70.45%;
+
+    margin : 0;
+    padding : 0;
+}
+
+
 .linkImg3 {
 	width : 21.55%;
 
